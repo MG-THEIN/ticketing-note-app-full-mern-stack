@@ -1,5 +1,5 @@
-import { usedGetUsersQuery } from "./usersApiSlice"
-import { User } from "./User"
+import { useGetUsersQuery } from "./usersApiSlice"
+import User from "./User"
 
 const UsersList = () => {
   const {
@@ -8,7 +8,7 @@ const UsersList = () => {
     isSuccess,
     isError,
     error,
-  } = usedGetUsersQuery()
+  } = useGetUsersQuery()
 
   let content
 
@@ -48,4 +48,4 @@ const UsersList = () => {
   return content
 }
 
-export default UserList
+export default UsersList

@@ -30,5 +30,4 @@ const User = ({ userId }) => {
     )
   } else return null
 }
-
 export default User
