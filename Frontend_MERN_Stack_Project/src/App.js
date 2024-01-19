@@ -14,8 +14,11 @@ import Prefetch from "./features/auth/Prefetch"
 import PersistLogin from "./features/auth/PersistLogin"
 import { ROLES } from "./config/roles"
 import RequiredAuth from "./features/auth/RequiredAuth"
+import useTitle from "./hooks/useTitle"
 
 function App() {
+  useTitle("Renew Repairs")
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
