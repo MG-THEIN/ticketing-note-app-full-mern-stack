@@ -4,7 +4,7 @@ The idea for this web-app came from my uncle, who runs a small phone repair shop
 ## Tools Used in this project
 I've done multiple frontend and backend projects, and looking to do a full stack project in order to get a clear understanding of how the frontend and backend connect to each other.So I decided to do this project using MERN stack.
 
-We developed a backend rest api in MVC design pattern using `Node.js`, `Express.js`, and `MangoDB` as database. For the frontend, we use `HTML`, `CSS`, `JavaScript`, `React` and `Redux`. We also use `JWT tokens` for autentication and securely transferring data between sever and client.
+We developed a backend rest api in MVC design pattern using `Node.js`, `Express.js`, and `MangoDB` as database. For the frontend, we use `HTML`, `CSS`, `JavaScript`, `React` and `Redux`. We also use `JWT tokens` for autentication and securely transferring data between sever and client. Lastly we use `render.com` to host the website.
 
 ## Requirements
 The following notes are the requirements we have to satisty for this web-app.
